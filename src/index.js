@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Home from "../../../workspace-spring-tool-suite-4-4.8.1.RELEASE/app/src/Home";
 
 ReactDOM.render(
   <React.StrictMode>
