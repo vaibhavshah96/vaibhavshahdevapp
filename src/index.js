@@ -7,7 +7,7 @@ import Home from "../../../workspace-spring-tool-suite-4-4.8.1.RELEASE/app/src/H
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
