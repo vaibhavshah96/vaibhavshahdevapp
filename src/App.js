@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" exact={true} component={Home} />
-        <Route path="/Aboutme" exact={true} component={Aboutme} />
+        <Route path="/aboutme" exact={true} component={Aboutme} />
 
         {/* <Route path="/categories" exact={true} component={Category} />
         <Route path="/expenses" exact={true} component={Expenses} /> */}

@@ -18,7 +18,7 @@ function Navigation() {
             <NavLink href="/">Home</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/Aboutme">About Me</NavLink>
+            <NavLink href="/aboutme">About Me</NavLink>
           </NavItem>
         </Nav>
       </Navbar>
