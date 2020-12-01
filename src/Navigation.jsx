@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Nav,
-  NavItem,
-  NavbarBrand,
-  NavLink,
-  Navbar,
-  NavbarText,
-} from "reactstrap";
+import { Nav, NavItem, NavbarBrand, NavLink, Navbar } from "reactstrap";
 
 function Navigation() {
   return (
