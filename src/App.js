@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import Button from "react-bootstrap/Button";
 import "./App.css";
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
         <p>
           Edit <code>HELLO</code> and save to reload.
         </p>
+        <Button variant="outline-dark">Dark</Button>
+
         <a
           className="App-link"
           href="https://reactjs.org"
