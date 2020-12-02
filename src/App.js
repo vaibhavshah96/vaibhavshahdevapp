@@ -28,9 +28,6 @@ class App extends Component {
       },
       about: {
         title: "About Me.",
-        subTitle: ".",
-        text:
-          "Born and raised in Hyderabad, a major hub for IT across the world, I have always been passionate about programming. I had my first introduction to programming when I was 10 years old. I have a Bachelor's degree in Computer Science from Sreenidhi Institue of Science and Technology, Hydrabad and a Master's degree in Computer Science from New Jersey Institute of Technology, Newark.",
       },
       contact: {
         title: "Contact Me.",
@@ -76,12 +73,7 @@ class App extends Component {
           <Route
             path="/about"
             exact={true}
-            render={() => (
-              <AboutPage
-                title={this.state.about.title}
-                text={this.state.about.text}
-              />
-            )}
+            render={() => <AboutPage title={this.state.about.title} />}
           />
           <Route
             path="/contact"
