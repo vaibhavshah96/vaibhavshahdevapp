@@ -1,7 +1,8 @@
 import React, { Component } from "react";
+import Hero from "../components/Hero";
 
 function AboutPage(props) {
-  return <p>About Page</p>;
+  return <Hero title={props.title} />;
 }
 
 export default AboutPage;
