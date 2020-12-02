@@ -8,10 +8,10 @@ function Footer() {
     <footer className="mt-5">
       <Container fluid={true}>
         <Row className="border-top justify-content-between p-3">
-          <Col className="p-0" md={3}>
+          <Col className="p-0" md={3} sm={5}>
             Vaibhav Shah
           </Col>
-          <Col className="p-0 d-flex justify-content-end" md={2} sm={1}>
+          <Col className="p-0 d-flex justify-content-end" md={3} sm={12}>
             Made with React and AWS Amplify.
           </Col>
         </Row>
