@@ -6,7 +6,7 @@ function Aboutme() {
   return (
     <div>
       <Navigation />
-      <h1 style={{ paddingLeft: "10px" }}>About Me</h1>
+      <Hero title={props.title} subTitle={props.text} />
     </div>
   );
 }
