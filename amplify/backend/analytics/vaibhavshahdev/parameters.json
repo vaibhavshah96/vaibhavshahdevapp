@@ -1,0 +1,21 @@
+{
+    "appName": "vaibhavshahdev",
+    "roleName": "pinpointLambdaRole27cd3992",
+    "cloudformationPolicyName": "cloudformationPolicy27cd3992",
+    "cloudWatchPolicyName": "cloudWatchPolicy27cd3992",
+    "pinpointPolicyName": "pinpointPolicy27cd3992",
+    "authPolicyName": "pinpoint_amplify_27cd3992",
+    "unauthPolicyName": "pinpoint_amplify_27cd3992",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
