@@ -4,8 +4,6 @@ import "./App.css";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Home from "./Home";
-import Aboutme from "./Aboutme";
 
 import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
@@ -23,9 +21,10 @@ class App extends Component {
         { title: "Contact", path: "/contact" },
       ],
       home: {
-        title: "hey",
-        subTitle: "hello",
-        text: "hi",
+        title: "Vaibhav Shah",
+        subTitle:
+          "I am a software engineer in the Greater Philadelphia Region.",
+        text: "This website is in the making.",
       },
       about: {
         title: "About Me",

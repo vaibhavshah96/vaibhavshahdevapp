@@ -12,7 +12,7 @@ function Footer() {
             Vaibhav Shah
           </Col>
           <Col className="p-0 d-flex justify-content-end" md={2} sm={1}>
-            Vaibhav
+            Made with React and AWS Amplify.
           </Col>
         </Row>
       </Container>
