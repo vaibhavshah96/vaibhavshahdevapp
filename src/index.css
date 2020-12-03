@@ -47,3 +47,9 @@ code {
   color: #ee6352;
   padding: 10px 15px;
 }
+
+.jumbotron {
+  background-image: url(./assets/backgroung.png);
+  background-size: cover;
+  height: 100%;
+}
