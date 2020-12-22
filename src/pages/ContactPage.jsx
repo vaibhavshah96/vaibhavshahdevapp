@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 
 import Content from "../components/Content";
 import Hero from "../components/Hero";
+import Axios from "axios";
 
 class ContactPage extends Component {
   constructor(props) {
@@ -31,8 +32,28 @@ class ContactPage extends Component {
     event.preventDefault();
     this.setState({
       disabled: true,
-      emailSent: true,
     });
+
+    Axios.post("http://localhost:3030/api/email", this.state)
+      .then((res) => {
+        if (res.data.success) {
+          this.setState({
+            disabled: false,
+            emailSent: true,
+          });
+        } else {
+          this.setState({
+            disabled: false,
+            emailSent: false,
+          });
+        }
+      })
+      .catch((err) => {
+        this.setState({
+          disabled: false,
+          emailSent: false,
+        });
+      });
   };
 
   render() {

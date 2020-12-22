@@ -14,7 +14,7 @@ class Carousel extends Component {
           title: "Lorem ipsum",
           subTitle: "Lorem ipsum",
           imgsrc: react_logo,
-          link: "",
+          link: "#",
           selected: false,
         },
         {
@@ -22,7 +22,7 @@ class Carousel extends Component {
           title: "Lorem Ipsum",
           subTitle: "Lorem ipsum",
           imgsrc: react_logo,
-          link: "",
+          link: "https://s3.vaibhavshah.dev",
           selected: false,
         },
         {
@@ -30,7 +30,7 @@ class Carousel extends Component {
           title: "Lorem ipsum",
           subTitle: "Lorem ipsum",
           imgsrc: react_logo,
-          link: "",
+          link: "https://feature.vaibhavshah.dev",
           selected: false,
         },
       ],

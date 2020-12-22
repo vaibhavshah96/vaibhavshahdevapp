@@ -39,7 +39,12 @@ class App extends Component {
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-          <Navbar className="border-bottom" bg="transperant" expand="lg">
+          <Navbar
+            className="border-bottom navbar-dark bg-dark"
+            color="dark"
+            bg-color="black"
+            expand="lg"
+          >
             <Navbar.Brand>
               {" "}
               <Link to="/">Vaibhav Shah</Link>{" "}
