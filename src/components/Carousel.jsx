@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Card from "./Card";
 import react_logo from "../assets/react_logo.svg";
-import amplify_logo from "../assets/amplify2.png";
-import s3_logo from "../assets/s3.png";
+import amplify_logo from "../assets/Amplify_Logo.svg";
+import s3_logo from "../assets/S3_Logo.svg";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
@@ -27,14 +27,14 @@ class Carousel extends Component {
           link: "https://s3.vaibhavshah.dev",
           selected: false,
         },
-        {
-          id: 2,
-          title: "Feature Subdomain",
-          subTitle: "The feature branch of the GitHub Repo",
-          imgsrc: amplify_logo,
-          link: "https://feature.vaibhavshah.dev",
-          selected: false,
-        },
+        // {
+        //   id: 2,
+        //   title: "Feature Subdomain",
+        //   subTitle: "The feature branch of the GitHub Repo",
+        //   imgsrc: amplify_logo,
+        //   link: "https://feature.vaibhavshah.dev",
+        //   selected: false,
+        // },
       ],
     };
   }
